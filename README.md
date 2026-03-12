@@ -1,6 +1,6 @@
 # CS-23.252
-[program1 wap to reverse the array](#assignment1)
-##assignment1
+[program1 wap to reverse the array](# assignment1)
+## assignment1
 ```
 import java.util.Scanner;
 public class Revarray {
@@ -57,6 +57,9 @@ void outarrrev(){
 }
 ```
 <img width="557" height="448" alt="image" src="https://github.com/user-attachments/assets/afcdb4f5-0d02-496c-a104-44c604e2ecfb" />
+
+[](# assignment2)
+## assignment2 
 
 
 
