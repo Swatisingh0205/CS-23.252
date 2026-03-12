@@ -475,6 +475,70 @@ void output(){
 ```
 <img width="298" height="308" alt="image" src="https://github.com/user-attachments/assets/e6b09783-1498-4c5c-aa28-f6dfefcd4eb2" />
 
+[program9 wap to perform operations on 2D array](#assignment9)
+##assignment9
+```
+import java.util.Scanner;
+
+public class Array2 {
+    public static void main(String[] args) {
+        Array a1 = new Array();
+        a1.input();
+        a1.outputarr();
+        a1.transpose();
+        a1.outputtrans();
+    }
+}
+
+class Array {
+    // 1. Initialize arrays at the class level or in a constructor
+    int arr[][] = new int[3][3];
+    int trans[][] = new int[3][3];
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 9 elements for the 3x3 matrix:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                // 2. Removed 'int' prefix to use the class-level variable
+                arr[i][j] = sc.nextInt();
+            }
+        }
+    }
+
+    void outputarr() {
+        System.out.println("Original Array elements are:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                // 3. Changed 'trans' to 'arr' to show original elements
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    void transpose() {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                trans[j][i] = arr[i][j];
+            }
+        }
+    }
+
+    void outputtrans() {
+        System.out.println("Transposed Array elements are:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(trans[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+```
+<img width="296" height="319" alt="image" src="https://github.com/user-attachments/assets/aa088cd3-952f-41d3-a99c-6eccf446ccb7" />
+
 
 
 
