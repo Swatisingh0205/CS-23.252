@@ -60,7 +60,7 @@ void outarrrev(){
 
 [program to input/ output methods](#assignment2)
 ##assignment2 
-'''
+```
 import java.util.Scanner;
 public class Test {
 
@@ -91,7 +91,7 @@ void output()
     System.out.println(y);
 }
 }
-'''
+```
 <img width="338" height="98" alt="image" src="https://github.com/user-attachments/assets/cda85ccc-bc5b-4f8c-bb0a-a7d42bf868e1" />
 
 
