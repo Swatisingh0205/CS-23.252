@@ -593,6 +593,12 @@ public class Abst {
 ```
 <img width="286" height="101" alt="image" src="https://github.com/user-attachments/assets/99333c7b-9eac-485b-bb37-81623b6fe7dc" />
 
+[program11 wap to show ](#assignment11)
+##assignment11
+```
+```
+
+
 
 
 
