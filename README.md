@@ -540,6 +540,60 @@ class Array {
 <img width="296" height="319" alt="image" src="https://github.com/user-attachments/assets/aa088cd3-952f-41d3-a99c-6eccf446ccb7" />
 
 
+[program10 wap to show abstraction](#assignment10)
+##assignment10
+```
+package swati singh;
+
+/**
+ *
+ * @author IBM4
+ */
+
+abstract class Photo {
+    abstract void fun();
+    abstract void fun1();
+}    
+class D extends Photo{
+    void fun(){
+        System.out.println("This is class D with first method");
+    }
+    void fun1(){
+        System.out.println("This is class D with second method");
+    }
+
+   
+}
+class E extends Photo{
+    void fun(){
+        System.out.println("This is class E with first method");
+    }
+    void fun1(){
+        System.out.println("This is class E with second method");
+    }
+
+   
+}
+public class Abst {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        D obj = new D();
+        E obj1 = new E();
+        obj.fun();
+        obj.fun1();
+        obj1.fun1();
+        obj1.fun();
+    }
+    
+}
+```
+<img width="286" height="101" alt="image" src="https://github.com/user-attachments/assets/99333c7b-9eac-485b-bb37-81623b6fe7dc" />
+
+
 
 
 
