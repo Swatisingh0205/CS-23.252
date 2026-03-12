@@ -353,6 +353,66 @@ void output(){
 <img width="305" height="275" alt="image" src="https://github.com/user-attachments/assets/4064e168-79fa-483d-ab36-82a8ba3a7a92" />
 
 
+[program7 wap to add time (2) ](#assignment7)
+##assignment7
+```
+import java.util.Scanner;
+public class Time_Add {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        TimeTest t1=new TimeTest();
+        TimeTest t2=new TimeTest();
+        t1.input();
+        t2.input();
+        t1.add(t2);
+        t1.output();
+    }
+    
+}
+class TimeTest
+{
+    int hrs;
+    int min;
+    int sec;
+void input(){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the value of hour");
+    hrs=sc.nextInt();
+    System.out.println("Enter the value of minute");
+    min=sc.nextInt();
+    System.out.println("Enter the value of second");
+    sec=sc.nextInt();
+}
+void add(TimeTest o){
+    sec=sec+o.sec;
+    min=min+o.min;
+    hrs=hrs+o.hrs;
+    if(sec>=60){
+        sec=sec-60;
+        min=min+1;
+    }
+    if(min>=60){
+        min=min-60;
+        hrs=hrs+1;
+    }
+    
+}
+void output(){
+    System.out.println("hrs="+hrs);
+    System.out.println("min="+min);
+    System.out.println("sec="+sec);
+        
+}
+}
+
+```
+
+<img width="325" height="271" alt="image" src="https://github.com/user-attachments/assets/a17c10f1-8a30-4882-91d4-1b0b422e557b" />
+
 
 
 
