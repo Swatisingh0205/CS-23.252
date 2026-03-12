@@ -95,7 +95,7 @@ void output()
 <img width="338" height="98" alt="image" src="https://github.com/user-attachments/assets/cda85ccc-bc5b-4f8c-bb0a-a7d42bf868e1" />
 
 
-[program3 wap to take input from uuser and dispaly it](#assignment3)
+[program3 wap to take input from user and dispaly it](#assignment3)
 ##assignment3
 ```
 import java.util.Scanner;
@@ -158,6 +158,58 @@ class Test3 {
 
 ```
 <img width="361" height="132" alt="image" src="https://github.com/user-attachments/assets/cb0a8271-bf0a-408b-bf9c-2e1370682f9a" />
+
+[program4 wap to input numbers , multiply it , and display the results](#assignment4)
+##assignment4
+```
+import java.util.Scanner;
+
+public class Test4 {
+
+    // Main method - starting point of the program
+    public static void main(String[] args) {
+        
+        // Creating object of Test5 class
+        Test5 t1 = new Test5();
+        
+        // Calling methods for input, processing, and output
+        t1.input();
+        t1.proc();
+        t1.output();
+    }
+}
+
+// Class to handle input, processing and output
+class Test5 {
+
+    int x, y;   // Variables to store numbers
+
+    // Method to take input from user
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter value of x");
+        x = sc.nextInt();
+        
+        System.out.println("Enter value of y");
+        y = sc.nextInt();
+    }
+
+    // Method to double the values
+    void proc() {
+        x = 2 * x;
+        y = 2 * y;
+    }
+
+    // Method to display the result
+    void output() {
+        System.out.println("Value of x after doubling: " + x);
+        System.out.println("Value of y after doubling: " + y);
+    }
+}
+```
+<img width="313" height="151" alt="image" src="https://github.com/user-attachments/assets/3089b2cd-c983-46c9-8ede-fb58bbd3cf45" />
+
 
 
 
