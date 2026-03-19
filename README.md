@@ -593,13 +593,101 @@ public class Abst {
 ```
 <img width="286" height="101" alt="image" src="https://github.com/user-attachments/assets/99333c7b-9eac-485b-bb37-81623b6fe7dc" />
 
-[program11 wap to show ](#assignment11)
+[program11 wap to show Dynamic Method Dispatch ](#assignment11)
 ##assignment11
 ```
+
+public class Test1 {
+    public static void main(String[] args){
+    
+        
+     
+        
+        A a1; // declarition 
+        a1=new Child1();// creating object with child1 class constructor
+        a1.fun();
+        a1=new Child2();//creating object with child1 class constructor
+        a1.fun();
+        
+        
+    }
+}
+    
+    
+    class A{
+        
+        void fun(){
+        System.out.println("You are in parent class!!");
+        }
+    }
+    
+     class Child1 extends A{ // child class inheriting parent class 
+     void fun (){
+     
+     System.out.println("You are in child class 1!!");
+     }
+     }    
+     
+     
+     class Child2 extends A{ child class 2 inheriting parent class
+     void fun(){
+     
+     System.out.println("You are in child class 2!!");
+     }
+     }    
 ```
+<img width="677" height="117" alt="image" src="https://github.com/user-attachments/assets/600952c0-8ae9-4d37-b69f-59f668802df5" />
 
 
 
+[program12 wap to show inheritance  ](#assignment12)
+##assignment12
+```
+public class Test1 {
+    public static void main(String[] args){
+    
+        
+        A a1=new A();
+        Child1 a2=new Child1();
+        Child2 a3 = new Child2();
+        a1.fun1();
+        a2.fun1();
+        a2.fun2();
+        a3.fun1();
+        a3.fun3();
+        
+        
+        
+    }
+}
+    
+    
+    class A{
+        
+        void fun1(){
+        System.out.println("You are in parent class!!");
+        }
+    }
+    
+     class Child1 extends A{ // child class inheriting parent class 
+     void fun2 (){
+     
+     System.out.println("You are in child class 1!!");
+     }
+     }    
+     
+     
+     class Child2 extends A{
+     void fun3(){
+     
+     System.out.println("You are in child class 2!!");
+     }
+     }    
+    
+
+
+```
+<img width="688" height="164" alt="image" src="https://github.com/user-attachments/assets/a8c66c70-5345-4433-8ba6-f27492a4c907" />
 
 
 
