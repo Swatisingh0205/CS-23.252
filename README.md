@@ -12,6 +12,20 @@
 
 [6. Program6 wap to add time](#assignmet6)
 
+[program7 wap to add time (2) ](#assignment7)
+
+[program8 wap to add distances](#assignment8)
+
+[program9 wap to perform operations on 2D array](#assignment9)
+
+[program10 wap to show abstraction](#assignment10)
+
+
+[program11 wap to show  ArrayList operations](#assignment11)
+
+
+
+
 ## assignment1
 ```
 import java.util.Scanner;
@@ -367,8 +381,8 @@ void output(){
 <img width="305" height="275" alt="image" src="https://github.com/user-attachments/assets/4064e168-79fa-483d-ab36-82a8ba3a7a92" />
 
 
-[program7 wap to add time (2) ](#assignment7)
-##assignment7
+
+## assignment7
 ```
 import java.util.Scanner;
 public class Time_Add {
@@ -428,8 +442,8 @@ void output(){
 <img width="325" height="271" alt="image" src="https://github.com/user-attachments/assets/a17c10f1-8a30-4882-91d4-1b0b422e557b" />
 
 
-[program8 wap to add distances](#assignment8)
-##assignment8
+
+## assignment8
 ```
 
 import java.util.Scanner;
@@ -489,8 +503,8 @@ void output(){
 ```
 <img width="298" height="308" alt="image" src="https://github.com/user-attachments/assets/e6b09783-1498-4c5c-aa28-f6dfefcd4eb2" />
 
-[program9 wap to perform operations on 2D array](#assignment9)
-##assignment9
+
+## assignment9
 ```
 import java.util.Scanner;
 
@@ -554,8 +568,8 @@ class Array {
 <img width="296" height="319" alt="image" src="https://github.com/user-attachments/assets/aa088cd3-952f-41d3-a99c-6eccf446ccb7" />
 
 
-[program10 wap to show abstraction](#assignment10)
-##assignment10
+
+## assignment10
 ```
 package swati singh;
 
@@ -608,7 +622,7 @@ public class Abst {
 <img width="286" height="101" alt="image" src="https://github.com/user-attachments/assets/99333c7b-9eac-485b-bb37-81623b6fe7dc" />
 
 [program11 wap to show  ArrayList operations](#assignment11)
-##assignment11
+## assignment11
 ```
 import java.util.ArrayList;
 import java.util.List;
