@@ -12,16 +12,38 @@
 
 [6. Program6 wap to add time](#assignmet6)
 
-[program7 wap to add time (2) ](#assignment7)
+[7. Program7 wap to add time (2) ](#assignment7)
 
-[program8 wap to add distances](#assignment8)
+[8. Program8 wap to add distances](#assignment8)
 
-[program9 wap to perform operations on 2D array](#assignment9)
+[9. Program9 wap to perform operations on 2D array](#assignment9)
 
-[program10 wap to show abstraction](#assignment10)
+[10. Program10 wap to show abstraction](#assignment10)
+
+[11. Program11 wap to show  ArrayList operations](#assignment11)
+
+[12. Program12 wap to show  LinkedList operations ](#assignment12)
+
+[13. Program13 wap to show   Hashmap operations ](#assignment13)
+
+[14. Program14 wap to show  HashTree operations ](#assignment14)
+
+[15. Program15 wap to show  Stack operations ](#assignment15)
+
+[16. Program16 wap to show JFrame operations ](#assignment16)
+
+[17. Program17 wap to show Thread operations ](#assignment17)
+
+[18. Program18 wap to show Thread operations ](#assignment18)
+
+[19. Program 19Write a Java program to demonstrate the use of the AbstractList class by creating a custom list](#assignment19)
+
+[20. Program20 WAP to show the largest no](#assignment20)
 
 
-[program11 wap to show  ArrayList operations](#assignment11)
+
+
+
 
 
 
@@ -621,7 +643,7 @@ public class Abst {
 ```
 <img width="286" height="101" alt="image" src="https://github.com/user-attachments/assets/99333c7b-9eac-485b-bb37-81623b6fe7dc" />
 
-[program11 wap to show  ArrayList operations](#assignment11)
+
 ## assignment11
 ```
 import java.util.ArrayList;
@@ -680,8 +702,8 @@ public class Arraylist{
 ```
 <img width="354" height="285" alt="image" src="https://github.com/user-attachments/assets/e55e87c4-202c-4f10-8cce-bc7b8067b7c0" />
 
-[program12 wap to show  LinkedList operations ](#assignment12)
-##assignment12
+
+## assignment12
 ```
 import java.util.LinkedList;
         public class Ldls {
@@ -707,8 +729,7 @@ import java.util.LinkedList;
 <img width="154" height="94" alt="image" src="https://github.com/user-attachments/assets/c50adafe-a886-401f-bd86-88d0c3a1472e" />
 
 
-[program13 wap to show   Hashmap operations ](#assignment13)
-##assignment13
+## assignment13
 ```
 import java.util.HashMap; // Fixed typo: mport -> import
 import java.util.Map;
@@ -772,9 +793,9 @@ public class Hashmappg { // Class name must match your filename (Hashmappg.java)
 
 
 
-[program14 wap to show  HashTree operations ](#assignment14)
 
-##assignment14
+
+## assignment14
 
 ```
 import java.util.TreeSet;
@@ -832,7 +853,7 @@ public class HTree {
 <img width="377" height="244" alt="image" src="https://github.com/user-attachments/assets/544e7b17-83ce-4776-9480-389f35fa5daa" />
 
 
-[program15 wap to show  Stack operations ](#assignment15)
+
 
 ##assignment15
 ```
@@ -885,9 +906,8 @@ public class Stackpg {
 ```
 <img width="429" height="232" alt="image" src="https://github.com/user-attachments/assets/12354dfc-ba74-4e31-8c12-5a7561c6234c" />
 
-[program16 wap to show JFrame operations ](#assignment16)
 
-##assignment16
+## assignment16
 ```
 package com.mycompany.swati;
 
@@ -1139,9 +1159,9 @@ try {
 ```
 <img width="458" height="460" alt="image" src="https://github.com/user-attachments/assets/dd3a1893-476f-4ab4-91f4-6f13f212f8c7" />
 
-[program17 wap to show Thread operations ](#assignment17)
 
-##assignment17
+
+## assignment17
 ```
 
 
@@ -1192,9 +1212,8 @@ class ThreadTest3{
 
 
 
-[program18 wap to show Thread operations ](#assignment18)
 
-##assignment18
+## assignment18
 ```
 
 public class ThreadNew1 {
@@ -1249,7 +1268,7 @@ class ThreadC implements Runnable{
     }
 }
 }
-```
+
 public class ThreadNew1 {
 
     public static void main(String[] args) {
@@ -1298,8 +1317,8 @@ class ThreadC implements Runnable{
 }
 ```
 
- P31
-Q31. Write a Java program to demonstrate the use of the AbstractList class by creating a custom list.
+
+## assignment19
 
 CODE:-
 ```
@@ -1597,3 +1616,24 @@ OUTPUT:-
 
 <img width="552" height="235" alt="image" src="https://github.com/user-attachments/assets/e55d5ea5-772d-405f-a296-34001897f6c2" />
 
+
+
+
+## assignment 20
+```
+public class Largest {
+    
+    public static void main(String[] args) {
+        int a = 10, b = 25, c = 15;
+
+        if (a >= b && a >= c) {
+            System.out.println("Largest = " + a);
+        } else if (b >= a && b >= c) {
+            System.out.println("Largest = " + b);
+        } else {
+            System.out.println("Largest = " + c);
+        }
+    }
+}
+
+```
