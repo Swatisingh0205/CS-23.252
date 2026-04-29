@@ -1,6 +1,9 @@
-<img width="367" height="329" alt="image" src="https://github.com/user-attachments/assets/15ef457d-bf84-41a2-a5ca-b48cd08420f0" /># CS-23.252
+# CS-23.252
+
 [program1 wap to reverse the array](#assignment1)
-##assignment1
+
+
+## assignment1
 ```
 import java.util.Scanner;
 public class Revarray {
