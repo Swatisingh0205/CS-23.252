@@ -1,10 +1,15 @@
 # CS-23.252
 
 [program1 wap to reverse the array](#assignment1)
+
 [program2 to input/ output methods](#assignment2)
+
 [program3 wap to take input from user and dispaly it](#assignment3)
+
 [program4 wap to input numbers , multiply it , and display the results](#assignment4)
+
 [program5 wap to perform time operations ](#assignment5)
+
 ## assignment1
 ```
 import java.util.Scanner;
