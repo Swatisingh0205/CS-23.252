@@ -1,14 +1,16 @@
 # CS-23.252
 
-[program1 wap to reverse the array](#assignment1)
+[1.Program1 wap to reverse the array](#assignment1)
 
-[program2 to input/ output methods](#assignment2)
+[2.Program2 to input/ output methods](#assignment2)
 
-[program3 wap to take input from user and dispaly it](#assignment3)
+[3. Program3 wap to take input from user and dispaly it](#assignment3)
 
-[program4 wap to input numbers , multiply it , and display the results](#assignment4)
+[4. Program4 wap to input numbers , multiply it , and display the results](#assignment4)
 
-[program5 wap to perform time operations ](#assignment5)
+[5. Program5 wap to perform time operations ](#assignment5)
+
+[6. Program6 wap to add time](#assignmet6)
 
 ## assignment1
 ```
@@ -303,8 +305,9 @@ void output()
 ```
 <img width="292" height="448" alt="image" src="https://github.com/user-attachments/assets/d6f52b8f-8fff-43f1-a2f6-d4022593241c" />
 
-[program6 wap to add time](#assignmet6)
+
 ##assignment6
+
 ```
 import java.util.Scanner;
 public class TimeAdd2 {
